@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+	color: #CACFD2 ;
+}
+
+.biodata{
+	background: linear-gradient(90deg, #200122,#6f0000);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 5vh;
+}
+
+
+#name{
+	margin: 1rem;
+	font-size: 30px;
+	color: #F39C12 ;
+}
+
+#work{
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+#logo-name{
+	text-decoration: none;
+	color: #F39C12;
+}
+
+.profile{
+	display: flex;
+	justify-content: center;
+}
+
+.pp{
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+}
+
+.cont-ainer{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2vh 2vh;
+
+}
+
+.firstcard{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.firstcard div{
+	margin: 2vh;
+	text-align: center;
+	font-size: 24px;
+}
+
+.skills-tag{
+	font-size: 30px;
+	color: #F39C12;
+	padding: 2rem;
+	text-align: center;
+}
+
+.title-card{
+	font-size: 30px;
+	color: #F39C12;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.list-skills{
+	list-style: none;
+	font-size: 24px;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #F8F9F9;
+	text-align: center;
+	color: #5F6A6A;
+}
+
+
+#contact-line{
+	font-size: 28px;
+	text-align: center;
+	margin: auto;
+	padding:1rem 0;
+}
+
+.fa {
+  padding: 9px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 8px;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa:hover {
+    background-color:#F39C12 ;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-envelope,
+.small-logo{
+	background-color: #6f0000;
+}
+
+
+/*----------------HOVER EFFECTS BY IAN LUNN-----------------*/
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  text-shadow:  0 0 3px #ffffff;
+  cursor: pointer;
+}
+
+/*----------------------------------------------------------*/
+
+
+@media screen and (max-width: 1091px){
+
+
+.firstcard{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
