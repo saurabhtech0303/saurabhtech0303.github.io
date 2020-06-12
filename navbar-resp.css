@@ -8,21 +8,14 @@ body{
 }
 
 section{
+	background: linear-gradient(90deg, #200122,#6f0000);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	animation: bg-animate 4s infinite;
-}
-
-@keyframes bg-animate{
-	0%{background: linear-gradient(180deg, rgba(1,0,0,1) 0%, rgba(250,50,0,1) 100%);}
-	50%{ background: linear-gradient(180deg, rgba(1,0,0,1) 0%, rgba(250,92,0,1) 100%);}
-	100%{ background: linear-gradient(180deg, rgba(1,0,0,1) 0%, rgba(250,172,0,1) 100%);}
-	
 }
 
 .container-video{
-	z-index: 50;
+	z-index: 35;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
@@ -33,20 +26,20 @@ section{
   	bottom: 0;
   	min-width: 100%; 
   	min-height: 100%;
-  	overflow: hidden;
 }
 
 video{
 	width: 100vw;
+	z-index: 10;
 	position: absolute;
 }
 
 .welcome-note{
 	position: absolute;
-	z-index: 51;
+	z-index: 37;
 	text-align: center;
 	font-size: 26px;
-	color: white;
+	color: #6f0000;
 }
 
 #glimpse{
@@ -64,7 +57,6 @@ video{
 	background-color: rgba(0,0,0,0.8);
 	border: solid yellow 2px;
 }
-
 
 
 header{
@@ -434,6 +426,23 @@ footer{
 	.overlay-card{
 		display: none;
 	}
+
+
+	video{
+
+		height: 100%;
+		width: auto;
+		z-index: 10;
+		position: absolute;
+	}
+	
+
+
+
+
+
+
+
 }
 
 
@@ -666,8 +675,44 @@ footer{
 	  cursor: pointer;
 	}
 
+	.container-video{
+		z-index: 35;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+	  	top: 0;
+	  	min-width: 100%; 
+  		min-height: 100%;
+  	}
+	  
 
+
+	video{
+
+		height: 100%;
+		width: auto;
+		z-index: 10;
+		position: absolute;
+	}
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
